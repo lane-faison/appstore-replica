@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F605505A221E7BA900C415FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6055059221E7BA800C415FA /* AppDelegate.swift */; };
+		F605505C221E7BA900C415FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F605505B221E7BA900C415FA /* ViewController.swift */; };
+		F605505F221E7BA900C415FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F605505D221E7BA900C415FA /* Main.storyboard */; };
+		F6055061221E7BAA00C415FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6055060221E7BAA00C415FA /* Assets.xcassets */; };
+		F6055064221E7BAA00C415FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6055062221E7BAA00C415FA /* LaunchScreen.storyboard */; };
+		F605506F221E7BAA00C415FA /* appstore_replicaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F605506E221E7BAA00C415FA /* appstore_replicaTests.swift */; };
+		F605507A221E7BAA00C415FA /* appstore_replicaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6055079221E7BAA00C415FA /* appstore_replicaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F605506B221E7BAA00C415FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F605504E221E7BA800C415FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6055055221E7BA800C415FA;
+			remoteInfo = "appstore-replica";
+		};
+		F6055076221E7BAA00C415FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F605504E221E7BA800C415FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6055055221E7BA800C415FA;
+			remoteInfo = "appstore-replica";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6055056221E7BA800C415FA /* appstore-replica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "appstore-replica.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6055059221E7BA800C415FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F605505B221E7BA900C415FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F605505E221E7BA900C415FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6055060221E7BAA00C415FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6055063221E7BAA00C415FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6055065221E7BAA00C415FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F605506A221E7BAA00C415FA /* appstore-replicaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "appstore-replicaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F605506E221E7BAA00C415FA /* appstore_replicaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appstore_replicaTests.swift; sourceTree = "<group>"; };
+		F6055070221E7BAA00C415FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6055075221E7BAA00C415FA /* appstore-replicaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "appstore-replicaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6055079221E7BAA00C415FA /* appstore_replicaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appstore_replicaUITests.swift; sourceTree = "<group>"; };
+		F605507B221E7BAA00C415FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6055053221E7BA800C415FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6055067221E7BAA00C415FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6055072221E7BAA00C415FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F605504D221E7BA800C415FA = {
+			isa = PBXGroup;
+			children = (
+				F6055058221E7BA800C415FA /* appstore-replica */,
+				F605506D221E7BAA00C415FA /* appstore-replicaTests */,
+				F6055078221E7BAA00C415FA /* appstore-replicaUITests */,
+				F6055057221E7BA800C415FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6055057221E7BA800C415FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6055056221E7BA800C415FA /* appstore-replica.app */,
+				F605506A221E7BAA00C415FA /* appstore-replicaTests.xctest */,
+				F6055075221E7BAA00C415FA /* appstore-replicaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6055058221E7BA800C415FA /* appstore-replica */ = {
+			isa = PBXGroup;
+			children = (
+				F6055059221E7BA800C415FA /* AppDelegate.swift */,
+				F605505B221E7BA900C415FA /* ViewController.swift */,
+				F605505D221E7BA900C415FA /* Main.storyboard */,
+				F6055060221E7BAA00C415FA /* Assets.xcassets */,
+				F6055062221E7BAA00C415FA /* LaunchScreen.storyboard */,
+				F6055065221E7BAA00C415FA /* Info.plist */,
+			);
+			path = "appstore-replica";
+			sourceTree = "<group>";
+		};
+		F605506D221E7BAA00C415FA /* appstore-replicaTests */ = {
+			isa = PBXGroup;
+			children = (
+				F605506E221E7BAA00C415FA /* appstore_replicaTests.swift */,
+				F6055070221E7BAA00C415FA /* Info.plist */,
+			);
+			path = "appstore-replicaTests";
+			sourceTree = "<group>";
+		};
+		F6055078221E7BAA00C415FA /* appstore-replicaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6055079221E7BAA00C415FA /* appstore_replicaUITests.swift */,
+				F605507B221E7BAA00C415FA /* Info.plist */,
+			);
+			path = "appstore-replicaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6055055221E7BA800C415FA /* appstore-replica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F605507E221E7BAA00C415FA /* Build configuration list for PBXNativeTarget "appstore-replica" */;
+			buildPhases = (
+				F6055052221E7BA800C415FA /* Sources */,
+				F6055053221E7BA800C415FA /* Frameworks */,
+				F6055054221E7BA800C415FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "appstore-replica";
+			productName = "appstore-replica";
+			productReference = F6055056221E7BA800C415FA /* appstore-replica.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6055069221E7BAA00C415FA /* appstore-replicaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6055081221E7BAA00C415FA /* Build configuration list for PBXNativeTarget "appstore-replicaTests" */;
+			buildPhases = (
+				F6055066221E7BAA00C415FA /* Sources */,
+				F6055067221E7BAA00C415FA /* Frameworks */,
+				F6055068221E7BAA00C415FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F605506C221E7BAA00C415FA /* PBXTargetDependency */,
+			);
+			name = "appstore-replicaTests";
+			productName = "appstore-replicaTests";
+			productReference = F605506A221E7BAA00C415FA /* appstore-replicaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F6055074221E7BAA00C415FA /* appstore-replicaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6055084221E7BAA00C415FA /* Build configuration list for PBXNativeTarget "appstore-replicaUITests" */;
+			buildPhases = (
+				F6055071221E7BAA00C415FA /* Sources */,
+				F6055072221E7BAA00C415FA /* Frameworks */,
+				F6055073221E7BAA00C415FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6055077221E7BAA00C415FA /* PBXTargetDependency */,
+			);
+			name = "appstore-replicaUITests";
+			productName = "appstore-replicaUITests";
+			productReference = F6055075221E7BAA00C415FA /* appstore-replicaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F605504E221E7BA800C415FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Lane Faison";
+				TargetAttributes = {
+					F6055055221E7BA800C415FA = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F6055069221E7BAA00C415FA = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F6055055221E7BA800C415FA;
+					};
+					F6055074221E7BAA00C415FA = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F6055055221E7BA800C415FA;
+					};
+				};
+			};
+			buildConfigurationList = F6055051221E7BA800C415FA /* Build configuration list for PBXProject "appstore-replica" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F605504D221E7BA800C415FA;
+			productRefGroup = F6055057221E7BA800C415FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6055055221E7BA800C415FA /* appstore-replica */,
+				F6055069221E7BAA00C415FA /* appstore-replicaTests */,
+				F6055074221E7BAA00C415FA /* appstore-replicaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6055054221E7BA800C415FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6055064221E7BAA00C415FA /* LaunchScreen.storyboard in Resources */,
+				F6055061221E7BAA00C415FA /* Assets.xcassets in Resources */,
+				F605505F221E7BA900C415FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6055068221E7BAA00C415FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6055073221E7BAA00C415FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6055052221E7BA800C415FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F605505C221E7BA900C415FA /* ViewController.swift in Sources */,
+				F605505A221E7BA900C415FA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6055066221E7BAA00C415FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F605506F221E7BAA00C415FA /* appstore_replicaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6055071221E7BAA00C415FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F605507A221E7BAA00C415FA /* appstore_replicaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F605506C221E7BAA00C415FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6055055221E7BA800C415FA /* appstore-replica */;
+			targetProxy = F605506B221E7BAA00C415FA /* PBXContainerItemProxy */;
+		};
+		F6055077221E7BAA00C415FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6055055221E7BA800C415FA /* appstore-replica */;
+			targetProxy = F6055076221E7BAA00C415FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F605505D221E7BA900C415FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F605505E221E7BA900C415FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6055062221E7BAA00C415FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6055063221E7BAA00C415FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F605507C221E7BAA00C415FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F605507D221E7BAA00C415FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F605507F221E7BAA00C415FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34KC4VR7Y2;
+				INFOPLIST_FILE = "appstore-replica/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanefaison.appstore-replica";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6055080221E7BAA00C415FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34KC4VR7Y2;
+				INFOPLIST_FILE = "appstore-replica/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanefaison.appstore-replica";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F6055082221E7BAA00C415FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34KC4VR7Y2;
+				INFOPLIST_FILE = "appstore-replicaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanefaison.appstore-replicaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appstore-replica.app/appstore-replica";
+			};
+			name = Debug;
+		};
+		F6055083221E7BAA00C415FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34KC4VR7Y2;
+				INFOPLIST_FILE = "appstore-replicaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanefaison.appstore-replicaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appstore-replica.app/appstore-replica";
+			};
+			name = Release;
+		};
+		F6055085221E7BAA00C415FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34KC4VR7Y2;
+				INFOPLIST_FILE = "appstore-replicaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanefaison.appstore-replicaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "appstore-replica";
+			};
+			name = Debug;
+		};
+		F6055086221E7BAA00C415FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34KC4VR7Y2;
+				INFOPLIST_FILE = "appstore-replicaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanefaison.appstore-replicaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "appstore-replica";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6055051221E7BA800C415FA /* Build configuration list for PBXProject "appstore-replica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F605507C221E7BAA00C415FA /* Debug */,
+				F605507D221E7BAA00C415FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F605507E221E7BAA00C415FA /* Build configuration list for PBXNativeTarget "appstore-replica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F605507F221E7BAA00C415FA /* Debug */,
+				F6055080221E7BAA00C415FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6055081221E7BAA00C415FA /* Build configuration list for PBXNativeTarget "appstore-replicaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6055082221E7BAA00C415FA /* Debug */,
+				F6055083221E7BAA00C415FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6055084221E7BAA00C415FA /* Build configuration list for PBXNativeTarget "appstore-replicaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6055085221E7BAA00C415FA /* Debug */,
+				F6055086221E7BAA00C415FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F605504E221E7BA800C415FA /* Project object */;
+}
